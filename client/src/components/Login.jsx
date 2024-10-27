@@ -130,7 +130,7 @@ const Login = () => {
           <div className='text-red-500 text-center'>{error.general}</div>
         )}
 
-        <form onSubmit={handleLogin}>
+        <form onSubmit={()=>navigate("/alumniui")}>
           <InputField
             label='EMAIL'
             type='email'
@@ -179,6 +179,7 @@ const Login = () => {
 
           <button
             type='submit'
+            onClick={()=>navigate("/alumniui")}
             className={`w-full p-[12px] border-none rounded-[30px] bg-[#e0e5ec] shadow-[8px_8px_16px_#b3b9c5,-8px_-8px_16px_#ffffff] text-[#333] text-[1rem] font-bold cursor-pointer transition-all duration-300 ease-in-out hover:bg-[#d1d9e6] ${
               isLoading ? "opacity-70 cursor-not-allowed" : ""
             }`}
@@ -187,6 +188,7 @@ const Login = () => {
             {isLoading ? (
               <FaSpinner className='animate-spin mx-auto' />
             ) : (
+              
               "LOGIN"
             )}
           </button>
