@@ -44,24 +44,31 @@
 .content {
     flex-grow: 1;
     padding: 1.5rem;
-    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    background: linear-gradient(135deg, #b2b2b2, #1e1e2f);
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Home Page Post Card Layout */
+/* Posts Container */
 .home-page .posts-container {
+    width: 100%;  /* Full width in main content */
+    max-width: 800px;  /* Limit width for readability */
+    margin: auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    overflow-y: auto;
 }
 
+/* Post Card Styling */
 .post-card {
     background: #ffffff;
     border-radius: 10px;
     padding: 1rem;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    width: 75%;
-    margin: auto;
+    width: 100%;
 }
 
 .card-header {
@@ -81,7 +88,9 @@
 
 .post-image {
     max-width: 100%;
+    max-height: 400px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .card-footer {
@@ -95,52 +104,28 @@
     gap: 0.5rem;
 }
 
-/* Create Post Styles */
-.create-page {
-    background: linear-gradient(135deg, #dce35b, #45b649);
-    border-radius: 12px;
-    padding: 1.5rem;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+/* Additional Scrollable Content Styling */
+.scrollable-content {
+    height: 80vh;
+    width: 80vw !important;
+    overflow-y: auto;
+    padding-right: 10px;
 }
 
-/* Events and Notifications Styles */
-.events-container, .notifications-container {
-    width: 80%;
-    margin: auto;
+.scrollable-content::-webkit-scrollbar {
+    width: 8px;
 }
 
-.event-item {
-    background: linear-gradient(135deg, #3a6073, #3a9bdc); /* Unified Gradient for All Events */
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    color: #ffffff; /* Ensure text is readable */
-    transition: transform 0.2s; /* Add a hover effect */
+.scrollable-content::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
 }
 
-.notification-item {
-    background: linear-gradient(135deg, #3a6073, #3a9bdc); /* Unified Gradient for All Notifications */
-    border-radius: 8px;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-    color: #ffffff; /* Ensure text is readable */
-    transition: transform 0.2s; /* Add a hover effect */
+.scrollable-content::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
 }
 
-.notification-item:hover,
-.event-item:hover {
-    transform: scale(1.02); /* Slightly scale on hover */
-}
-
-/* Additional Styles */
-.form-control {
-    border-radius: 6px;
-    margin-bottom: 1rem;
-}
-
-/* Save and Edit Buttons */
+/* Button Styling */
 .btn-success, .btn-primary {
     color: #ffffff;
 }
@@ -153,7 +138,7 @@
     background-color: #007bff;
 }
 
-/* Profile Card Styles */
+/* Profile Card Styling */
 .profile-edit {
     background: linear-gradient(135deg, #ff7e5f, #feb47b);
     color: #ffffff;
@@ -161,15 +146,11 @@
     border-radius: 12px;
 }
 
-/* Additional Centering and Responsiveness */
-.text-center {
-    text-align: center;
-}
-
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
     .sidebar {
         width: 100vw;
-        height: auto;
+        height: 100vh;
     }
 
     .content {
@@ -177,29 +158,36 @@
     }
 
     .post-card {
-        width: 100%; 
+        width: 100%;
     }
 }
+.event-item{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #f0c3ff, #e0eafc);
 
-/* Modified Background for Main Content */
-.content {
-    background: linear-gradient(135deg, #b2b2b2, #1e1e2f);
-}
-/* Add scrollable container for posts, events, and notifications */
-.scrollable-content {
-    max-height: calc(100vh - 4rem); /* Adjust based on your header/footer height if needed */
-    overflow-y: auto; /* Enables vertical scrolling */
-    padding-right: 1rem; /* Adds some padding to the right for better appearance */
-}
 
-/* Hide scrollbar in a consistent way across browsers if needed */
-.scrollable-content::-webkit-scrollbar {
-    width: 8px;
 }
-.scrollable-content::-webkit-scrollbar-thumb {
-    background-color: #555;
-    border-radius: 4px;
+.notification-item{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #f0c3ff, #e0eafc);
+ 
 }
-.scrollable-content::-webkit-scrollbar-track {
-    background-color: #f1f1f1;
+.profile-edit{
+    width: 80vw;
 }

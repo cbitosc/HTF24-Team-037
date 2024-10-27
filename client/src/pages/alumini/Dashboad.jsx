@@ -35,6 +35,7 @@ const AluminiUi = () => {
       .then(response => response.json())
       .then(data => setPosts(data.map((post, index) => ({
         ...post,
+        
         userPhoto: randomProfileImages[index % randomProfileImages.length]
       }))));
 
@@ -87,7 +88,7 @@ const AluminiUi = () => {
         {currentPage === "Home" && (
           <div className="home-page">
             <h2>Posts</h2>
-            <div className="posts-container">
+            <div className="scrollable-content posts-container">
               {posts.map(post => (
                 <div key={post.id} className="post-card">
                   <div className="card-header d-flex align-items-center">
@@ -95,7 +96,7 @@ const AluminiUi = () => {
                     <h6 className="ms-2">{currentUser.name}</h6>
                   </div>
                   <div className="card-body">
-                    <img src={post.url} alt={post.title} className="post-image" />
+                    <img src="https://i.insider.com/65ed832590413ab8e1db37d1?width=842&format=jpeg" alt={post.title} className="post-image" />
                   </div>
                   <div className="card-footer d-flex justify-content-between">
                     <button className="btn btn-light d-flex align-items-center">
@@ -116,7 +117,7 @@ const AluminiUi = () => {
         {currentPage === "Events" && (
           <div>
             <h2>Upcoming Events</h2>
-            <div className="events-container">
+            <div className="scrollable-content events-container">
               {events.map(event => (
                 <div key={event.id} className="event-item">
                   <h6>{event.name}</h6>
@@ -129,7 +130,7 @@ const AluminiUi = () => {
         {currentPage === "Notifications" && (
           <div>
             <h2>Notifications</h2>
-            <div className="notifications-container">
+            <div className="scrollable-content notifications-container">
               {notifications.map((notification, index) => (
                 <div key={notification.id} className="notification-item">
                   <p>{notification.message}</p>
@@ -172,11 +173,9 @@ const AluminiUi = () => {
             </div>
             <div className="mb-3">
               <label>Bio:</label>
-              <textarea className="form-control" value={bio} onChange={(e) => setBio(e.target.value)} rows="3"></textarea>
+              <textarea className="form-control" rows="3" value={bio} onChange={(e) => setBio(e.target.value)}></textarea>
             </div>
-            <div className="d-flex justify-content-end">
-              <button className="btn btn-primary" onClick={handleSave}>Save</button>
-            </div>
+            <button className="btn btn-primary" onClick={handleSave}>Save Changes</button>
           </div>
         )}
       </div>
