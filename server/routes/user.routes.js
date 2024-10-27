@@ -14,7 +14,7 @@ const {
 } = require("../controllers/user.controllers");
 
 router.get("/", (req, res) => {
-  res.send("Welcome to MCA Alumni Network");
+  res.send("Welcome to    Alumni Network");
 });
 
 // Creating User Account

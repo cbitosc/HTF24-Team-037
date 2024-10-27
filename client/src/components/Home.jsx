@@ -30,7 +30,7 @@ const Home = () => {
   const [textIndex, setTextIndex] = useState(0);
   const [isTyping, setIsTyping] = useState(true);
   const descriptionText =
-    "Empowering connections among MCA alumni to foster collaboration, mentorship, and professional growth within a dynamic and supportive community.";
+    "Empowering connections among    alumni to foster collaboration, mentorship, and professional growth within a dynamic and supportive community.";
 
     useEffect(() => {
       const ctx = gsap.context(() => {

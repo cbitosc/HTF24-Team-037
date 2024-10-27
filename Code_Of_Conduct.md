@@ -1,18 +1,18 @@
-# MMMUT MCA Alumni Network Project Code of Conduct
+# MMMUT    Alumni Network Project Code of Conduct
 
 ## Welcome
 
-Welcome to the **MMMUT MCA Alumni Network** repository! This platform connects the alumni of the MCA department at **Madan Mohan Malaviya University of Technology (MMMUT)**. It serves as an exclusive space where current students, alumni, and faculty members can communicate, share career opportunities, and stay informed about the latest events and achievements of the alumni community. Our goal is to build a positive, inclusive, and respectful environment where everyone can participate and contribute meaningfully.
+Welcome to the **MMMUT    Alumni Network** repository! This platform connects the alumni of the    department at **Madan Mohan Malaviya University of Technology (MMMUT)**. It serves as an exclusive space where current students, alumni, and faculty members can communicate, share career opportunities, and stay informed about the latest events and achievements of the alumni community. Our goal is to build a positive, inclusive, and respectful environment where everyone can participate and contribute meaningfully.
 
 ## Our Pledge
 
-We as members, contributors, and leaders pledge to make participation in **MMMUT MCA Alumni Network** a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in **MMMUT    Alumni Network** a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 We commit to building a respectful, welcoming, and professional network that fosters collaboration and communication among alumni, students, and faculty members.
 
 ## Our Standards
 
-To create a positive experience for everyone involved in **MMMUT MCA Alumni Network**, we expect all participants to adhere to the following standards:
+To create a positive experience for everyone involved in **MMMUT    Alumni Network**, we expect all participants to adhere to the following standards:
 
 ### Positive Behavior:
 - **Respect for All**: Treat all community members with respect and courtesy, fostering a welcoming and collaborative atmosphere.
@@ -32,16 +32,16 @@ To create a positive experience for everyone involved in **MMMUT MCA Alumni Netw
 
 ## Project Goals
 
-The **MMMUT MCA Alumni Network** project has several key objectives:
+The **MMMUT    Alumni Network** project has several key objectives:
 
 - **Building Connections**: This platform is designed to connect current students, alumni, and faculty members, facilitating mentorship and career development opportunities.
 - **Sharing Opportunities**: Alumni and students are encouraged to share job postings, internships, and other professional opportunities that benefit the entire community.
-- **Celebrating Achievements**: The platform highlights the accomplishments of alumni, fostering pride in the achievements of the MMMUT MCA community.
+- **Celebrating Achievements**: The platform highlights the accomplishments of alumni, fostering pride in the achievements of the MMMUT    community.
 - **Supporting Growth**: The network provides a space for discussions around career growth, education, and industry trends, benefiting all members.
 
 ## Enforcement Responsibilities
 
-The maintainers and leaders of the **MMMUT MCA Alumni Network** are responsible for enforcing this Code of Conduct, ensuring that all participants contribute to a respectful, professional, and positive community. Leaders are expected to:
+The maintainers and leaders of the **MMMUT    Alumni Network** are responsible for enforcing this Code of Conduct, ensuring that all participants contribute to a respectful, professional, and positive community. Leaders are expected to:
 
 - Clearly communicate the standards for participation and acceptable behavior.
 - Address any reports of behavior that violates the Code of Conduct in a timely and fair manner.
@@ -50,7 +50,7 @@ The maintainers and leaders of the **MMMUT MCA Alumni Network** are responsible 
 
 ## Scope
 
-This Code of Conduct applies to all spaces managed by the **MMMUT MCA Alumni Network**, including GitHub repositories, online discussions, alumni forums, and any related communication channels. It also applies when members represent the alumni network in external events, such as university conferences or public forums.
+This Code of Conduct applies to all spaces managed by the **MMMUT    Alumni Network**, including GitHub repositories, online discussions, alumni forums, and any related communication channels. It also applies when members represent the alumni network in external events, such as university conferences or public forums.
 
 ## Reporting Violations
 
@@ -89,7 +89,7 @@ Community leaders will follow these guidelines to determine the consequences for
 
 ## Building a Positive Community
 
-At **MMMUT MCA Alumni Network**, we are dedicated to creating a community that is welcoming, inclusive, and professional. By working together to uphold these values, we can create a platform that helps alumni and students connect, grow, and succeed. Let’s collaborate and innovate with respect and integrity, building a stronger alumni network for the future.
+At **MMMUT    Alumni Network**, we are dedicated to creating a community that is welcoming, inclusive, and professional. By working together to uphold these values, we can create a platform that helps alumni and students connect, grow, and succeed. Let’s collaborate and innovate with respect and integrity, building a stronger alumni network for the future.
 
 ## Attribution
 

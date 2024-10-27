@@ -11,7 +11,6 @@ import {
   FaYoutube,
 } from "react-icons/fa";
 
-// About Us Component
 const AboutUs = () => {
   const navigate = useNavigate();
 
@@ -111,7 +110,7 @@ const AboutUs = () => {
           }}
         >
           <motion.img
-            src="https://bighostindia.in/wp-content/uploads/2023/08/Web-Design-Services-BigHost-India-Private-Limited.png" // Replace with your image URL
+            src="https://www.cbit.ac.in/wp-content/uploads/2023/02/IMG_4354-scaled.jpg" // Replace with your image URL
             alt="Hero Image"
             style={{ width: "100%", borderRadius: "10px" }}
             animate={{ scale: [1, 1.05, 1] }} // Simple scaling animation

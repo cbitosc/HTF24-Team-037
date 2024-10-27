@@ -1,6 +1,6 @@
-# MMMUT MCA Alumni Network
+# MMMUT    Alumni Network
 
-Welcome to the **MMMUT MCA Alumni Network**, an exclusive platform that connects the alumni of the MCA department at Madan Mohan Malaviya University of Technology (MMMUT). This web application allows current students, alumni, and faculty members to communicate, share career opportunities, and stay updated with the latest events and achievements of the alumni network.
+Welcome to the **MMMUT    Alumni Network**, an exclusive platform that connects the alumni of the    department at Madan Mohan Malaviya University of Technology (MMMUT). This web application allows current students, alumni, and faculty members to communicate, share career opportunities, and stay updated with the latest events and achievements of the alumni network.
 
 ## Features
 
@@ -13,7 +13,7 @@ Welcome to the **MMMUT MCA Alumni Network**, an exclusive platform that connects
 
 ## UI Ideas
 
-![alt text](<MCA ALumni Network.png>)
+![alt text](<   ALumni Network.png>)
 
 ## Login UI
 
@@ -64,13 +64,13 @@ Before you begin, make sure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/abhishekraoas/MCA-Alumni-Network.git
+   git clone https://github.com/abhishekraoas/  -Alumni-Network.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd MCA-Alumni-Network
+   cd   -Alumni-Network
    ```
 
 3. **Install backend dependencies:**
@@ -125,7 +125,7 @@ Before you begin, make sure you have the following installed:
 The project is divided into two main directories: `frontend` and `backend`.
 
 ```
-MCA-Alumni-Network/
+  -Alumni-Network/
 │
 ├── backend/                 # Node.js server and API
 │   ├── controllers/         # Request handling and business logic

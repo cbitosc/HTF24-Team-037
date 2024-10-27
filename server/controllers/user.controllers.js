@@ -164,7 +164,7 @@ async function Sendcontactmail(req,res){
 
     const mailOptions = {
       from: email, 
-      to: "mmmutmca@gmail.com", 
+      to: "mmmut  @gmail.com", 
       subject: `Contact Us Message from ${name}`,
       text: message,
       html: `

@@ -130,9 +130,9 @@ const Contact = () => {
         <h2 className="text-center text-xl font-bold mb-2 pb-2">Contact Us</h2>
         <div className="flex flex-col items-start space-y-4">
           <div className="flex items-center text-lg font-semibold">
-            <a href="mailto:mmmutmca@gmail.com" className="flex items-center text-black hover:underline">
+            <a href="mailto:mmmut  @gmail.com" className="flex items-center text-black hover:underline">
               <FaEnvelope className="mr-3 text-2xl" />
-              <span>mmmutmca@gmail.com</span>
+              <span>mmmut  @gmail.com</span>
             </a>
           </div>
           <div className="flex items-center text-lg font-semibold">

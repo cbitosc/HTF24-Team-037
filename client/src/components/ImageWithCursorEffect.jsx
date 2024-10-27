@@ -29,10 +29,10 @@ const ImageWithCursorEffect = () => {
             }}
         >
             <motion.img
-                src="https://astrorei.io/static/dedicated-dev-team-729a36b484a719fd20b200f39d614100.svg"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbrHxDVyoAP3C5lUVffTeA5rv3pgy449Nee9Hz2sx_sUYDCxbJQWPBGgI16TN--rosTrA&usqp=CAU"
                 alt="AlumniHub"
                 style={{
-                    maxWidth: '550px',
+                    width: '750px',
                     boxShadow: '0',
                     marginRight: '90px',
                 }}

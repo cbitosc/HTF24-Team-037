@@ -17,13 +17,13 @@ This guide will help you get started with the project and make your first contri
 3. **Clone the forked repository** to your local machine:
 
     ```bash
-    git clone https://github.com/abhishekraoas/MCA-Alumni-Network.git
+    git clone https://github.com/abhishekraoas/  -Alumni-Network.git
     ```
 
 4. **Navigate to the project directory**:
 
     ```bash
-    cd MCA-Alumni-Network
+    cd   -Alumni-Network
     ```
 
 5. **Create a new branch** to work on your contribution:
@@ -57,6 +57,6 @@ This guide will help you get started with the project and make your first contri
 
 ## Thank You 🙌
 
-We’re thrilled to have you contribute to the **MCA Alumni Network**! Your contribution makes this project better for everyone. 🎉
+We’re thrilled to have you contribute to the **   Alumni Network**! Your contribution makes this project better for everyone. 🎉
 
-If you have any questions, feel free to [open an issue](https://github.com/abhishekraoas/MCA-Alumni-Network/issues) or join the discussion.
+If you have any questions, feel free to [open an issue](https://github.com/abhishekraoas/  -Alumni-Network/issues) or join the discussion.

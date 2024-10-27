@@ -123,7 +123,7 @@ const Login = () => {
       <div className='bg-[#e0e5ec] rounded-[20px] p-[40px_30px] shadow-[8px_8px_16px_#b3b9c5,-8px_-8px_16px_#ffffff] max-w-[350px] w-full text-center'>
         <div className='mb-[30px]'>
           <FaUserCircle className='text-[80px] text-gray-500 mb-[10px] mx-auto' />
-          <h2 className='text-[1.8rem] font-bold text-[#333]'>MCA Alumni</h2>
+          <h2 className='text-[1.8rem] font-bold text-[#333]'>   Alumni</h2>
         </div>
 
         {error.general && (

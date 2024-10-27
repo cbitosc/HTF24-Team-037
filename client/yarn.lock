@@ -932,7 +932,7 @@ camelcase-css@^2.0.1:
 caniuse-lite@^1.0.30001646, caniuse-lite@^1.0.30001669:
   version "1.0.30001671"
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001671.tgz"
-  integrity sha512-jocyVaSSfXg2faluE6hrWkMgDOiULBMca4QLtDT39hw1YxaIPHWc1CcTCKkPmHgGH6tKji6ZNbMSmUAvENf2/A==
+  integrity sha512-jocyVaSSfXg2faluE6hrWkMgDOiULB  4QLtDT39hw1YxaIPHWc1CcTCKkPmHgGH6tKji6ZNbMSmUAvENf2/A==
 
 chalk@^4.0.0:
   version "4.1.2"
@@ -2670,7 +2670,7 @@ react-fast-compare@^3.0.1:
 react-icons@^5.3.0:
   version "5.3.0"
   resolved "https://registry.npmjs.org/react-icons/-/react-icons-5.3.0.tgz"
-  integrity sha512-DnUk8aFbTyQPSkCfF8dbX6kQjXA9DktMeJqfjrg6cK9vwQVMxmcA3BfP4QoiztVmEHtwlTgLFsPuH2NskKT6eg==
+  integrity sha512-DnUk8aFbTyQPSkCfF8dbX6kQjXA9DktMeJqfjrg6cK9vwQVMx  3BfP4QoiztVmEHtwlTgLFsPuH2NskKT6eg==
 
 react-is@^16.13.1:
   version "16.13.1"
