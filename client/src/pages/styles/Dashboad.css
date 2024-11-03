@@ -1,0 +1,193 @@
+.main {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    overflow: hidden;
+    display: flex;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background: linear-gradient(135deg, #222831, #393e46);
+    color: #ffffff;
+    padding: 1rem;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.menu-item:hover {
+    background: #50575d;
+    transform: scale(1.05);
+}
+
+.profile-sidebar-box {
+    background: linear-gradient(135deg, #00416a, #e4e5e6);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Main Content Styles */
+.content {
+    flex-grow: 1;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #b2b2b2, #1e1e2f);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Posts Container */
+.home-page .posts-container {
+    width: 100%;  /* Full width in main content */
+    max-width: 800px;  /* Limit width for readability */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow-y: auto;
+}
+
+/* Post Card Styling */
+.post-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+}
+
+.user-photo {
+    border-radius: 50%;
+}
+
+.card-body {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.post-image {
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comment-form {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* Additional Scrollable Content Styling */
+.scrollable-content {
+    height: 80vh;
+    width: 80vw !important;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.scrollable-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 4px;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Button Styling */
+.btn-success, .btn-primary {
+    color: #ffffff;
+}
+
+.btn-success:hover {
+    background-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #007bff;
+}
+
+/* Profile Card Styling */
+.profile-edit {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .content {
+        margin-top: 1rem;
+    }
+
+    .post-card {
+        width: 100%;
+    }
+}
+.event-item{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #f0c3ff, #e0eafc);
+
+
+}
+.notification-item{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, #f0c3ff, #e0eafc);
+ 
+}
+.profile-edit{
+    width: 80vw;
+}
